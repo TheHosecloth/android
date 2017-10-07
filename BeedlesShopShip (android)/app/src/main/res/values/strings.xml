@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Beedle\'s Shop Ship Delivery</string>
+    <string name="introduction_text">Hi there, my name\'s Beedle, welcome to my shop! Here at Beedle\'s Shop Ship, we pride ourselves on providing busy adventurers like yourself with the most useful general items they\'ll need for their journeys. Unlike boring stationary land shops, we have multiple shop ships that circle most islands in the Great Sea, and we\'re exited you\'re here to try out our new delivery service!</string>
+    <string name="start_shopping_button_text">Start Shopping</string>
+    <string name="start_checkout_button_text">Checkout</string>
+    <string name="shopping_cart_receipt_base">Your current shopping cart is below, please check over everything before submitting your order.\n\n</string>
+    <string name="submit_order_button_text">Submit Order</string>
+    <string name="order_submitted_text">Thank you for your business! Your order will be delierved by Rito mail carrier services within 3\-5 business days depending on your location in Hyrule.</string>
+
+    <string name="shop_item_name_default_text">Shop Item Name</string>
+    <string name="shop_item_price_tag_default_text">Shop Item Price Tag</string>
+
+    <string-array name="shop_item_icons">
+        <item>@drawable/allpurposebait</item>
+        <item>@drawable/arrow</item>
+        <item>@drawable/baitbag</item>
+        <item>@drawable/bomb</item>
+        <item>@drawable/emptybottle</item>
+        <item>@drawable/hyoipear</item>
+        <item>@drawable/pieceofheart</item>
+        <item>@drawable/redpotion</item>
+        <item>@drawable/treasurechart</item>
+    </string-array>
+
+    <string-array name="shop_item_names">
+        <item>All-Purpose Bait</item>
+        <item>Arrows (10)</item>
+        <item>Bait Bag</item>
+        <item>Bombs (15)</item>
+        <item>Empty Bottle</item>
+        <item>Hyoi Pear</item>
+        <item>Piece of Heart</item>
+        <item>Red Potion</item>
+        <item>Treasure Chart</item>
+    </string-array>
+
+    <string-array name="shop_item_price_tags">
+        <item>30 Rupees</item>
+        <item>30 Rupees</item>
+        <item>20 Rupees</item>
+        <item>60 Rupees</item>
+        <item>500 Rupees</item>
+        <item>10 Rupees</item>
+        <item>950 Rupees</item>
+        <item>30 Rupees</item>
+        <item>900 Rupees</item>
+    </string-array>
+
+    <integer-array name="shop_item_prices">
+        <item>30</item>
+        <item>30</item>
+        <item>20</item>
+        <item>60</item>
+        <item>500</item>
+        <item>10</item>
+        <item>950</item>
+        <item>30</item>
+        <item>900</item>
+    </integer-array>
+</resources>

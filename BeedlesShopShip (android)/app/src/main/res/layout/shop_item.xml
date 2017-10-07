@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/IconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="50dp"
+        android:maxWidth="100dp"
+        app:srcCompat="@drawable/allpurposebait" />
+
+    <TextView
+        android:id="@+id/NameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/IconImageView"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/IconImageView"
+        tools:text="@string/shop_item_name_default_text" />
+
+    <TextView
+        android:id="@+id/PriceTagTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/IconImageView"
+        android:layout_alignStart="@+id/NameTextView"
+        tools:text="@string/shop_item_price_tag_default_text" />
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/PriceTagTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="number" />
+</RelativeLayout>
